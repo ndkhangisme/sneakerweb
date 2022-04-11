@@ -1,0 +1,24 @@
+﻿@model TramCam.Models.Sneaker
+
+@{
+    ViewBag.Title = "Detail";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h2>Detail</h2>
+<h2>@Html.DisplayFor(model => model.TenGiay)</h2>
+
+<div class="col-sm-12 col=md-12">
+    <div class="thumbnail">
+        <img src="@Html.DisplayFor(model => model.Hinh)" />
+    </div>
+    <div class="caption">
+        <p>Mã loại: @Html.DisplayFor(model => model.MaLoai)</p>
+        <p>Mô tả: @Html.DisplayFor(model => model.MoTa)</p>
+        <p>Giá: @Html.DisplayFor(model => model.Gia)</p>
+        <p>
+            <a href="#" class="btn btn-primary" role="button">Buy</a>
+            @Html.ActionLink("Back", "Index", "", new { @class = "btn btn-info" })
+        </p>
+    </div>
+</div>

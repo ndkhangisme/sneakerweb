@@ -1,0 +1,155 @@
+﻿* {
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+
+.container {
+	max-width: 1300px;
+	margin: auto;
+	padding-left: 25px;
+	padding-right: 25px;
+}
+
+.small-container {
+	min-width: 1080px;
+	margin: auto;
+	padding-left: 25px;
+	padding-right: 25px;
+}
+
+body {
+	font-family: "Poppins", sans-serif;
+}
+
+.Menu {
+	text-align: center;
+	display: flex;
+	align-items: center;
+	padding: 0;
+	text-decoration: none;
+	margin: 20px;
+}
+
+	.Menu ul {
+		list-style-type: none;
+	}
+
+	.Menu li {
+		display: inline-block;
+		width: 120px;
+		height: 40px;
+		margin-left: -5px;
+	}
+
+	.Menu a {
+		color: #000000;
+		font-size: 20px;
+		transition-duration: 0.6s;
+		text-decoration: none;
+	}
+
+		.Menu a:hover {
+			color: rgb(128 128 128);
+		}
+
+.banner1 {
+	align-items: center;
+	margin: 40px;
+}
+
+	.banner1 img {
+		width: 100%;
+	}
+
+.content1 {
+	text-align: center;
+	align-items: center;
+}
+
+	.content1 p {
+		font-size: 20px;
+		margin-top: 30px;
+		margin-bottom: 0;
+	}
+
+	.content1 h1 {
+		font-weight: bold;
+	}
+
+	.content1 a {
+		color: #fff;
+		position: relative;
+		background-color: #000000;
+		padding: 0px 30px;
+		cursor: pointer;
+		display: inline-block;
+		line-height: 46px;
+		border-radius: 23px;
+		transition-duration: 0.6s;
+	}
+
+		.content1 a:hover {
+			background-color: rgb(156, 154, 154);
+		}
+
+.banner2 {
+	align-items: center;
+	margin: 40px;
+}
+
+	.banner2 img {
+		width: 100%;
+	}
+
+.content2 {
+	text-align: center;
+	align-items: center;
+}
+
+	.content2 h1 {
+		font-weight: bold;
+	}
+
+	.content2 a {
+		color: #fff;
+		position: relative;
+		background-color: #000000;
+		padding: 0px 30px;
+		cursor: pointer;
+		display: inline-block;
+		line-height: 46px;
+		border-radius: 23px;
+		transition-duration: 0.6s;
+	}
+
+		.content2 a:hover {
+			background-color: rgb(156, 154, 154);
+		}
+
+.Trending {
+	padding-top: 100px;
+	padding-left: 100px;
+	margin: 0 auto;
+}
+
+	.Trending p {
+		font-size: 30px;
+	}
+
+.trend1 {
+	flex-basis: 30%;
+	min-width: 250px;
+	margin-bottom: 30px;
+	display: inline-block;
+	padding: 30px;
+}
+
+	.trend1 img {
+		width: 100%;
+	}
+
+	.trend1 h4 {
+		margin-top: 10px;
+		font-size: 15px;
+	}
